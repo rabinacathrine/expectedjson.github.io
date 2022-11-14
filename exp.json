@@ -1,68 +1,66 @@
-{
-   role:'Manager',
-    name: 'ssjhsjhd',
-    children: [
 
-      {
-        'role': 'L1', 
-        'name': 'Absalom, Bhaskar', 
-        'children': [
-        {'role': 'L2', 'name': 'Chennai Workplace Services'}
+  {
+  "role":"Manager",
+    "name": "ssjhsjhd",
+    "children":[
+    {
+        "role": "L1", 
+        "name": "Absalom, Bhaskar", 
+        "children": [
+        {"role": "L2", "name": "Chennai Workplace Services"}
       ]
     },
+    {
+      "role": "L1", "name": "Anders, Matt", 
+      "children": [{"role": "L2", "name": "Vonder, Mark"}]},
       {
-        'role': 'L1', 'name': 'Anders, Matt', 
-        'children': [{'role': 'L2', 'name': 'Vonder, Mark'}]},
-        {
-          'role': 'L1', 
-          'name': 'Chun, Hang Il(GMarket)', 
-          'children': [
-            {
-              'role': 'L2', 
-              'name': 'Lee, In Young(GMarket)', 
-              'children': 
-              [
-                {'role': 'L3', 
-              'name': 'Lee, Min Sub(GMarket)',
-              'children': []
-          }
-        ]
-      }
-    ]
-        },
-        {
-          'role': 'L1', 
-          'name': 'M3Fahion', 
-          'children': [
-            {
-              'role': 'L2', 
-              'name': 'GMarket', 
-              'children': 
-              {'role': 'L3', 
-              'name': 'Lee, Min Sub(GMarket)',
-              'children': []
-          }}]
-        },
-        {'role': 'L1', 'name': 'Chun, Hang Il(GMarket)', 
-        'children': [{'role': 'L2', 
-        'name': 'Kim, Eun Ock(GMarket)',
-         'children': 
-         [{'role': 'L3', 
-         'name': 'Park, Seon Ae(GMarket)',
-          'children': []}]}]},
-         
+        "role": "L1", 
+        "name": "Chun, Hang Il(GMarket)", 
+        "children": [
           {
-            'role': 'L1', 'name': 'Agrawal, Jeetendra', 
-          'children': [
-            {'role': 'L2', 'name': 'Siluveru, Pradeep(AWF)', 
-            'children': 
-            [{'role': 'L3', 'name': '', 'children': []}]}]},
+            "role": "L2", 
+            "name": "Lee, In Young(GMarket)", 
+            "children": 
+            [
+              {"role": "L3", 
+            "name": "Lee, Min Sub(GMarket)",
+            "children": []
+        }
+      ]
+    }
+  ]
+      },
+      {
+        "role": "L1", 
+        "name": "M3Fahion", 
+        "children": [
+          {
+            "role": "L2", 
+            "name": "GMarket", 
+            "children": 
+            {"role": "L3", 
+            "name": "Lee, Min Sub(GMarket)",
+            "children": []
+        }}]
+      },
+      {"role": "L1", "name": "Chun, Hang Il(GMarket)", 
+      "children": [{"role": "L2", 
+      "name": "Kim, Eun Ock(GMarket)",
+       "children": 
+       [{"role": "L3", 
+       "name": "Park, Seon Ae(GMarket)",
+        "children": []}]}]},
+       
+        {
+          "role": "L1", "name": "Agrawal, Jeetendra", 
+        "children": [
+          {"role": "L2", "name": "Siluveru, Pradeep(AWF)", 
+          "children": 
+          [{"role": "L3", "name": "", "children": []}]}]},
 
-            {'role': 'L1', 'name': 'Chun, Hang Il(GMarket)', 
-            'children': [{'role': 'L2', 
-            'name': 'Kim, Eun Ock(GMarket)', 
-            'children': [{'role': 'L3', 'name': 'Park, Seon Ae(GMarket)', 'children': []}]}]}
-
-  
-    ]
-  }
+          {"role": "L1", "name": "Chun, Hang Il(GMarket)", 
+          "children": [{"role": "L2", 
+          "name": "Kim, Eun Ock(GMarket)", 
+          "children": [{"role": "L3", "name": "Park, Seon Ae(GMarket)", "children": []}]}]}
+        ]
+      } 
